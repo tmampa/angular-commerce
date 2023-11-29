@@ -1,5 +1,4 @@
-<div class="carousel rounded-box">
-  <div class="carousel-item w-32" *ngFor="let product of products">
-    <img [src]="product.image" alt="Burger" />
-  </div>
+<div class="mt-12 container mx-auto space-x-4">
+  <ng-image-slider [images]="imgCollection" #nav [autoSlide]="5"
+                   [imageSize]="{width: 'auto', height: 'auto'}"></ng-image-slider>
 </div>
