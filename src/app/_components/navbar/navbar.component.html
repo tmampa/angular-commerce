@@ -1,8 +1,14 @@
 <div class="navbar bg-base-100 container mx-auto">
-  <div class="flex-1">
-    <a class="btn btn-ghost text-2xl">Easy Buy</a>
-    <div class="ml-4">
-      <a href="">Products</a>
+  <div class="flex-1 flex items-center">
+    <div><a class="font-black text-2xl">Easy Buy</a></div>
+    <div class="dropdown dropdown-hover ">
+      <div tabindex="0" role="button" class="font-semibold ml-8 mt-2 bg-white">Categories</div>
+      <ul class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a>Electronics</a></li>
+        <li><a>Jewelery</a></li>
+        <li><a>Men's Fashion</a></li>
+        <li><a>Women's Fashion</a></li>
+      </ul>
     </div>
   </div>
   <div class="flex-none">
@@ -30,12 +36,6 @@
         </div>
       </div>
       <ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <li>
-          <a class="justify-between">
-            Profile
-            <span class="badge">New</span>
-          </a>
-        </li>
         <li><a>Logout</a></li>
       </ul>
     </div>
